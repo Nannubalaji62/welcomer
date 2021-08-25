@@ -1,14 +1,16 @@
-# discord.js-Welcomer
+# Nannubalaji62/Welcomer
 
-## What does this bot do?
-This bot will welcome anybody who join the server based on the code.. It has to be set manually in the code..
-But don't worry Just check this **[Video](https://www.youtube.com/watch?v=CW1hEPiBBJc)** out if you need any help reguarding setup of this bot..
+## What is this bot?
+This bot basically welcomes user via a discord channel that is setup by **YOU** in the code.
+
 
 ## Languages Used
 discord.js
 
-## More like this!!
-For more awesome bot make sure to Subscribe [The Channel](https://www.youtube.com/channel/UCmTSEzt4h1S4MiCM1grWu9g)
-For any other support make sure to join our [Discord Server!!](https://discord.gg/86pEDZy3dp) :D
+## More like this!
+For more videos, subsribe to me on youtube by [clicking here](https://www.youtube.com/channel/shadowandthenan69)
+For any other support make sure to join our [Discord Server!](https://discord.gg/j2TnF2gRA2) :)
 
-Thanks for using this bot :D
+# More projects coming soon!
+
+Star this repository if this code helped you :D
