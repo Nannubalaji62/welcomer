@@ -2,17 +2,14 @@ let Discord = require("discord.js");
 let client = new Discord.Client();
 
 client.on("ready", () => {
-  client.user.setPresence({ activity: { name: "Listening to Discord Tricks"}}) //this is the bot status code..
-})
+  client.user.setPresence({ activity: { name: "Watching new members join..."}}) //this is the bot's status, change it if you wish to...
 
 client.on("guildMemberAdd", member => {
-if (member.guild.id === "Your server id here") { //enable your developer mode in your discord settings and right click your server.. then you should see copy id option...
+if (member.guild.id === "Your server id here")//add your guild ID here {
   
   
   client.channels.cache.get("your welcome channel id here").send(`Welcome ${member}!! Thanks for joining the server.. Hope you enjoy your stay here :D`)
-}
+}//                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ add your welcomer channel ID here 
 })
 
-client.login("your top secret token here..")
-
-//Made by 365 ɢᴀᴍɪɴɢ ɴ ᴍᴏʀᴇ_2.0#6766 DONOT share without credits!!
+client.login("your top secret token here..")//and finally, your bot's token to login :D
